@@ -54,7 +54,7 @@ export default function About() {
 
         <div className="mt-6">
           <a 
-            href="public/Files/CV Francisco Javier Alcala Guzmán.pdf" 
+            href="./Files/CV Francisco Javier Alcala Guzmán.pdf" 
             download
             className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg shadow-md transition duration-300"
           >
