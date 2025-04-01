@@ -1,4 +1,4 @@
-/* Asegurar que ocupe todo el ancho */
+
 #root {
   width: 100%;
   max-width: 100%;
@@ -6,7 +6,6 @@
   padding: 0;
 }
 
-/* Asegurar que el body y html ocupen toda la pantalla */
 html, body {
   margin: 0;
   padding: 0;
@@ -14,12 +13,10 @@ html, body {
   height: 100%;
 }
 
-/* Ajustar el main para que se expanda y no limite el footer */
 main {
   flex-grow: 1;
 }
 
-/* Estilos del footer */
 footer {
   background-color: #1a1a1a;
   color: white;
@@ -28,4 +25,8 @@ footer {
   width: 100%;
   position: relative;
   bottom: 0;
+}
+
+Home {
+  
 }

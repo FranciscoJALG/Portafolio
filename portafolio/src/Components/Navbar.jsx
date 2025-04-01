@@ -10,16 +10,16 @@ export default function Navbar() {
         {/* Links de navegación */}
         <ul className="flex space-x-6">
           <li>
-            <Link to="/" className="hover:text-gray-300">Inicio</Link>
+            <Link to="/Portafolio/" className="hover:text-gray-300">Inicio</Link>
           </li>
           <li>
-            <Link to="/about" className="hover:text-gray-300">Sobre mí</Link>
+            <Link to="Portafolio/about" className="hover:text-gray-300">Sobre mí</Link>
           </li>
           <li>
-            <Link to="/projects" className="hover:text-gray-300">Proyectos</Link>
+            <Link to="Portafolio/projects" className="hover:text-gray-300">Proyectos</Link>
           </li>
           <li>
-            <Link to="/contact" className="hover:text-gray-300">Contacto</Link>
+            <Link to="Portafolio/contact" className="hover:text-gray-300">Contacto</Link>
           </li>
         </ul>
       </div>
