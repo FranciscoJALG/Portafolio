@@ -7,16 +7,16 @@ export default function Footer() {
   
           {/* Redes sociales */}
           <div className="flex space-x-4 mt-2">
-            <a href="https://github.com/tuusuario" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+            <a href="https://github.com/franciscojalg" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
               GitHub
             </a>
-            <a href="https://www.linkedin.com/in/tuusuario/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+            <a href="https://linkedin.com/in/francisco-javier-alcala-guzmán-693770325/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
               LinkedIn
             </a>
           </div>
   
           {/* Derechos de autor */}
-          <p className="text-sm mt-2">© 2024 Tu Nombre. Todos los derechos reservados.</p>
+          <p className="text-sm mt-2">© 2024 Francisco Javier Alcala Guzmán. Todos los derechos reservados.</p>
         </div>
       </footer>
     );
