@@ -36,7 +36,7 @@ export default function Contact() {
         <a href="https://linkedin.com/in/francisco-javier-alcala-guzmán-693770325/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900">
           <FaLinkedin size={30} />
         </a>
-        <a href="mailto:tuemail@example.com?subject=Contacto%20desde%20tu%20portafolio&body=Hola,%20quiero%20contactarte!" className="hover:text-gray-900">
+        <a href="mailto:francisco.j.alcala.guz@gmail.com?subject=Contacto%20desde%20tu%20portafolio&body=Hola,%20quiero%20contactarte!" className="hover:text-gray-900">
           <FaEnvelope size={30} />
         </a>
         <a href="https://wa.me/5213411780393?text=Hola,%20quiero%20contactarte!" 
