@@ -6,7 +6,8 @@ export default function Contact() {
       <h2 className="text-3xl font-bold text-gray-800 mb-6">Contacto</h2>
 
       {/* Formulario de contacto */}
-      <form action="https://formspree.io/f/mdkewejv" method="POST" className="bg-white shadow-lg rounded-lg p-6 w-full max-w-lg">
+      <form action="https://formspree.io/f/mdkewejv" method="POST" className="bg-white shadow-lg rounded-lg p-6 w-full max-w-lg"
+      onSubmit={(e) => {setTimeout(() => e.target.reset(), 1000); }}>
         <div className="mb-4">
           <label className="block text-gray-700 font-semibold">Nombre</label>
           <input type="text" name="nombre" className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Tu nombre" required />
