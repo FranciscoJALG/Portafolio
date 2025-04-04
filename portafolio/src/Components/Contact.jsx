@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 
 export default function Contact() {
   return (
-    <section id="contact" className="flex flex-col min-h-screen items-center justify-between bg-gray-100 pt-36">
+    <section id="contact" className="flex flex-col min-h-screen items-center justify-between bg-gray-100 pt-24">
       <h2 className="text-3xl font-bold text-gray-800 mb-6">Contacto</h2>
 
       {/* Formulario de contacto */}

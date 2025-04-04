@@ -24,14 +24,14 @@ const projects = [
     tech: ["Python", "Flask", "Bootstrap."],
     github: "https://github.com/FranciscoJALG/Data-analizer",
     demo: "https://data-analizer-1.onrender.com",
-  }
+  },
   
   
 ];
 
 export default function Projects() {
   return (
-<section id="projects" className="pt-20 pb-10 overflow-auto">
+<section id="projects" className="scroll-mt-24 px-6 bg-gray-100 min-h-[calc(100vh-8rem)] py-10">
        <h2 className="text-3xl font-bold text-center mb-8">Mis Proyectos</h2>
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-6">
         {projects.map((project, index) => (

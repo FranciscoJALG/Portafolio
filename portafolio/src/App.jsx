@@ -12,7 +12,7 @@ function App() {
    <Router>
       <div className="flex flex-col min-h-screen">
         <Navbar />
-        <main className="flex-grow pt-[400px] pb-20 overflow-y-auto">
+        <main className="flex-grow pt-[50px] pb-[83px] overflow-y-auto">
           <Routes>
             <Route path="/Portafolio/" element={<Home />} />
             <Route path="Portafolio/About" element={<AboutMe />} />
