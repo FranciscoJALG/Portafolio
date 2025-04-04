@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-      <footer className="w-full bg-gray-800 text-white py-4 text-center mt-auto">
+      <footer className="fixed bottom-0 left-0 w-full bg-gray-800 text-white p-4 text-center shadow-md z-10">
         <div className="container mx-auto flex flex-col items-center">
           {/* Nombre o logo */}
           <h2 className="text-lg font-bold">Mi Portafolio</h2>

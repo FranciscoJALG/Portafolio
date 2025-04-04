@@ -10,9 +10,9 @@ import './App.css';
 function App() {
   return (
    <Router>
-      <div className="flex flex-col min-h-screen bg-gray-900">
+      <div className="flex flex-col min-h-screen">
         <Navbar />
-        <main className="flex-grow container mx-auto px-4 py-10">
+        <main className="flex-grow pt-[400px] pb-20 overflow-y-auto">
           <Routes>
             <Route path="/Portafolio/" element={<Home />} />
             <Route path="Portafolio/About" element={<AboutMe />} />
