@@ -2,14 +2,6 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
   {
-    title: "Sistema de Predicción de Inventarios",
-    description: "Aplicación web para predecir la demanda de productos en farmacias usando Machine Learning.",
-    image: "/images/inventarios.png", // Reemplaza con la imagen de tu proyecto
-    tech: ["Python", "Flask", "SQL Server", "Holt-Winters"],
-    github: "https://github.com/tuusuario/inventarios",
-    demo: "https://inventarios-demo.vercel.app",
-  },
-  {
     title: "Aplicación de Pedidos en Equipo",
     description: "Plataforma colaborativa para gestionar pedidos en equipo, desarrollada con MERN Stack.",
     image: "/images/pedidos.png",
@@ -24,6 +16,14 @@ const projects = [
     tech: ["Python", "Flask", "Bootstrap."],
     github: "https://github.com/FranciscoJALG/Data-analizer",
     demo: "https://data-analizer-1.onrender.com",
+  },
+  {
+    title: "Gestor de Tareas en Consola con Java y SQlite",
+    description: "aplicacion en consola para gestionar tareas que cuenta con funcionalidades CRUD",
+    image: "./images/png gestor de tareas.png",
+    tech: ["Java", "SQLite"],
+    github: "https://github.com/FranciscoJALG/TaskManager",
+    demo: "https://github.com/FranciscoJALG/TaskManager",
   },
   
   
