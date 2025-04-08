@@ -2,14 +2,6 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
   {
-    title: "Aplicación de Pedidos en Equipo",
-    description: "Plataforma colaborativa para gestionar pedidos en equipo, desarrollada con MERN Stack.",
-    image: "/images/pedidos.png",
-    tech: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
-    github: "https://github.com/tuusuario/pedidos",
-    demo: "https://pedidos-app.vercel.app",
-  },
-  {
     title: "Aplicación Para analisis de informacion de archivos csv",
     description: "Aplicacion web desarrollada con python y flask para el analisis de archivos csv",
     image: "./images/Portada_Data_Analizer.png",
@@ -25,7 +17,14 @@ const projects = [
     github: "https://github.com/FranciscoJALG/TaskManager",
     demo: "https://github.com/FranciscoJALG/TaskManager",
   },
-  
+  {
+    title: "Gestor de Empleados en C#",
+    description: "Aplicación de escritorio con interfaz gráfica para gestionar empleados.",
+    image: "./images/Portada_Employee_Manager.png",
+    tech: ["C#", "Windows Forms", "SQLite", "Visual Studio", "Git"],
+    github: "https://github.com/FranciscoJALG/EmployeeManager",
+    demo: "https://drive.google.com/file/d/13zLLO_-5H0YX9Hxf5ZqrBdoSHTnxwNJy/view?usp=drive_link.",
+  },
   
 ];
 
